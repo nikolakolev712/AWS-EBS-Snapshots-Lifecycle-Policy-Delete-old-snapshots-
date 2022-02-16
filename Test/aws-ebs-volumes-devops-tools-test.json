@@ -1,0 +1,4920 @@
+{
+    "Volumes": [
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2020-02-27T11:51:24.256Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-061da3ae1663d6b5b",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2020-06-05T12:20:58.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-06a77ab356b333c97",
+                    "State": "attached",
+                    "VolumeId": "vol-04e01dbe8178faabe",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2020-06-05T12:20:58.101Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-0a5297fde7e8d5195",
+            "State": "in-use",
+            "VolumeId": "vol-04e01dbe8178faabe",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "haider-testing"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-01-27T22:24:01.766Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-02aea7408a164daad",
+            "State": "available",
+            "VolumeId": "vol-0c105c975862bef7b",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-bb0e08da"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-03-11T11:51:30.091Z",
+            "Encrypted": false,
+            "Size": 20,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0dcb2b976d45308e3",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-03-26T10:55:25.473Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0b49f8baae0465255",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "xray-instance"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-05-24T07:44:03.254Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0e167842304ab6045",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-ada21993"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-05-24T10:35:37.492Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0607d1d7aa5f2eb4d",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-bc6b4628"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-05-24T10:45:31.151Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0252bf5cfa69a54f8",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-2bdf3373"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-06-27T09:20:59.962Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-07fc27cd9cf01153f",
+            "State": "available",
+            "VolumeId": "vol-0f14fc1601c05cf0b",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-5b8e4162"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-02T15:29:30.000Z",
+                    "Device": "/dev/xvdcd",
+                    "InstanceId": "i-07287638af52e0ef3",
+                    "State": "attached",
+                    "VolumeId": "vol-0e300b438364ad28a",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-09-02T09:19:56.917Z",
+            "Encrypted": false,
+            "Size": 2,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-0e300b438364ad28a",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/created-for/pvc/name",
+                    "Value": "dot-test-prometheus-alertmanager"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/namespace",
+                    "Value": "default"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pv/name",
+                    "Value": "pvc-baceff59-ce01-41b2-b367-dbac365de706"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "kubernetes-dynamic-pvc-baceff59-ce01-41b2-b367-dbac365de706"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-02T15:29:30.000Z",
+                    "Device": "/dev/xvdbh",
+                    "InstanceId": "i-07287638af52e0ef3",
+                    "State": "attached",
+                    "VolumeId": "vol-0f96328d9fe5f9112",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-09-02T09:19:56.948Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-0f96328d9fe5f9112",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "kubernetes-dynamic-pvc-3f3e6afc-3831-4d32-94e3-0459b5d4b520"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pv/name",
+                    "Value": "pvc-3f3e6afc-3831-4d32-94e3-0459b5d4b520"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/name",
+                    "Value": "dot-test-prometheus-server"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/namespace",
+                    "Value": "default"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-09-10T19:32:37.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0a20481b46a42c04e",
+                    "State": "attached",
+                    "VolumeId": "vol-074b4f129d216c6f1",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-09-10T19:32:37.738Z",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0e6ee5acf460c322f",
+            "State": "in-use",
+            "VolumeId": "vol-074b4f129d216c6f1",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "haiders-testing"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-10-27T02:21:59.618Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-02d1cc5ade4eea19a",
+            "State": "available",
+            "VolumeId": "vol-015e407d2b451d0f2",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-7620ca32"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-11-28T21:10:33.372Z",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-08b6ecc515189d863",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pv/name",
+                    "Value": "pvc-6beb18f9-7e32-43b1-a85d-9ff55541acc4"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/namespace",
+                    "Value": "aqua"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "kubernetes-dynamic-pvc-6beb18f9-7e32-43b1-a85d-9ff55541acc4"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/name",
+                    "Value": "aqua-audit-database-pvc"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2021-11-28T21:10:33.373Z",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0d6d755d3de630e72",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/name",
+                    "Value": "aqua-database-pvc"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/namespace",
+                    "Value": "aqua"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "kubernetes-dynamic-pvc-d6a569f6-5d9a-495d-a826-35d612df3cac"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pv/name",
+                    "Value": "pvc-d6a569f6-5d9a-495d-a826-35d612df3cac"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2022-01-31T16:53:52.444Z",
+            "Encrypted": false,
+            "Size": 300,
+            "SnapshotId": "snap-09b827805d3c74a28",
+            "State": "available",
+            "VolumeId": "vol-093f6f9f312fe200d",
+            "Iops": 900,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jenkins"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-02T15:32:34.000Z",
+                    "Device": "/dev/xvdcr",
+                    "InstanceId": "i-07287638af52e0ef3",
+                    "State": "attached",
+                    "VolumeId": "vol-07119b62b6b572559",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2022-01-31T18:51:58.016Z",
+            "Encrypted": false,
+            "Size": 300,
+            "SnapshotId": "snap-09b827805d3c74a28",
+            "State": "in-use",
+            "VolumeId": "vol-07119b62b6b572559",
+            "Iops": 900,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jenkins-eks"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-02T15:30:43.000Z",
+                    "Device": "/dev/xvdcn",
+                    "InstanceId": "i-07287638af52e0ef3",
+                    "State": "attached",
+                    "VolumeId": "vol-0f4f8271d92131d44",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2022-02-02T12:37:28.705Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-0c5e16371753cca50",
+            "State": "in-use",
+            "VolumeId": "vol-0f4f8271d92131d44",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "sonarqube-eks",
+                    "Value": ""
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube-eks"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-02T15:16:22.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-07287638af52e0ef3",
+                    "State": "attached",
+                    "VolumeId": "vol-09b7b5829aaf7c718",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2022-02-02T15:16:22.589Z",
+            "Encrypted": false,
+            "Size": 120,
+            "SnapshotId": "snap-0029af06de01c027e",
+            "State": "in-use",
+            "VolumeId": "vol-09b7b5829aaf7c718",
+            "Iops": 360,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "dot-test-default-cluster"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-16T02:16:25.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-045cf915cfd5cbf3d",
+                    "State": "attached",
+                    "VolumeId": "vol-0c9b9ff0e103121e1",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1c",
+            "CreateTime": "2022-02-16T02:16:25.675Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-07028eb4ff4e6b62c",
+            "State": "in-use",
+            "VolumeId": "vol-0c9b9ff0e103121e1",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-01-19T14:42:01.494Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-00212997f357397ac",
+            "State": "available",
+            "VolumeId": "vol-0fe563861cbd4f941",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-0b64fd51"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-01-27T15:22:13.495Z",
+            "Encrypted": false,
+            "Size": 4,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0cdf1ed0ea8f0430d",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/created-for/pvc/namespace",
+                    "Value": "aqua"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "kubernetes-dynamic-pvc-184bba68-6523-402f-a13d-6afcad3e297e"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/name",
+                    "Value": "aqua-web-pvc"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pv/name",
+                    "Value": "pvc-184bba68-6523-402f-a13d-6afcad3e297e"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-18T15:08:49.887Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-010c5d7ec5f9c5509",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-57dbc490"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-18T15:48:47.645Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-051105e385c00bf1c",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-63c9066d"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-18T16:02:56.329Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-07cf494f016786081",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-58a9fe37"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-18T16:24:30.445Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0c18f895b549412b0",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-2af95398"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-20T10:25:10.805Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0e0df761e2378f03b",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-4b9dcc8b"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-20T10:40:34.946Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0aa5cb7b16ad1be28",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-92e95066"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-20T12:53:46.655Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-00e08797c546149cb",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-762bde30"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-21T11:32:51.617Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0d47195767d2a6f38",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-70fdefd7"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-21T12:45:11.329Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0fa4a058e8b19ede9",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-f769075b"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-21T13:00:54.584Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-023ecfb0e5f6b3630",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-3f90c33f"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-21T13:11:15.640Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0f6f9bd99af07a53d",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-846244a2"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2021-05-21T13:53:17.724Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0e24cf09999cdcba7",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-1986dda3"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-01-24T22:59:59.000Z",
+                    "Device": "/dev/xvdb",
+                    "InstanceId": "i-009c89fcc6bf46712",
+                    "State": "attached",
+                    "VolumeId": "vol-01fe21c1a60819de7",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-01-24T22:59:59.531Z",
+            "Encrypted": false,
+            "Size": 300,
+            "SnapshotId": "snap-0e0e7fc8486f26a33",
+            "State": "in-use",
+            "VolumeId": "vol-01fe21c1a60819de7",
+            "Iops": 900,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-51412910"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "jenkins-master-test"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-01-24T22:59:59.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-009c89fcc6bf46712",
+                    "State": "attached",
+                    "VolumeId": "vol-0e7eb32cfb99cf1e2",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-01-24T22:59:59.623Z",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0f3e682c83184aaf4",
+            "State": "in-use",
+            "VolumeId": "vol-0e7eb32cfb99cf1e2",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jenkins-master-test"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-16T01:32:58.000Z",
+                    "Device": "/dev/xvdb",
+                    "InstanceId": "i-017e6e63d2b13bf0e",
+                    "State": "attached",
+                    "VolumeId": "vol-00dcb53a629498f2f",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-01-27T16:04:01.341Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "in-use",
+            "VolumeId": "vol-00dcb53a629498f2f",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-4b5568f6"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-01-31T11:27:57.444Z",
+            "Encrypted": false,
+            "Size": 300,
+            "SnapshotId": "snap-0e0e7fc8486f26a33",
+            "State": "available",
+            "VolumeId": "vol-02cce8214d6d61364",
+            "Iops": 900,
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-02T11:44:20.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0a446f89416376552",
+                    "State": "attached",
+                    "VolumeId": "vol-02c5df4d9a0f9a06c",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-02-02T11:44:20.109Z",
+            "Encrypted": false,
+            "Size": 120,
+            "SnapshotId": "snap-0029af06de01c027e",
+            "State": "in-use",
+            "VolumeId": "vol-02c5df4d9a0f9a06c",
+            "Iops": 360,
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "dot-test-default-cluster"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-14T10:05:51.000Z",
+                    "Device": "/dev/xvdbh",
+                    "InstanceId": "i-06bd87f417829283b",
+                    "State": "attached",
+                    "VolumeId": "vol-05fd94adcc61f3749",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-02-12T16:40:30.025Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-042a64f243487e913",
+            "State": "in-use",
+            "VolumeId": "vol-05fd94adcc61f3749",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube-argocd-volume"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-14T10:05:22.000Z",
+                    "Device": "/dev/xvdbu",
+                    "InstanceId": "i-06bd87f417829283b",
+                    "State": "attached",
+                    "VolumeId": "vol-0aa8de8de004de345",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-02-12T17:37:34.999Z",
+            "Encrypted": false,
+            "Size": 300,
+            "SnapshotId": "snap-08ab70b038dd19fdf",
+            "State": "in-use",
+            "VolumeId": "vol-0aa8de8de004de345",
+            "Iops": 900,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "jenkins-argocd-volume"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-12T20:16:15.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-06bd87f417829283b",
+                    "State": "attached",
+                    "VolumeId": "vol-0ee4ddd5f7fd7f520",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-02-12T20:16:15.754Z",
+            "Encrypted": false,
+            "Size": 120,
+            "SnapshotId": "snap-0029af06de01c027e",
+            "State": "in-use",
+            "VolumeId": "vol-0ee4ddd5f7fd7f520",
+            "Iops": 360,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "dot-test-tools-cluster"
+                },
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-tools-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-16T01:31:59.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-017e6e63d2b13bf0e",
+                    "State": "attached",
+                    "VolumeId": "vol-09f7a0b4beaf6aad5",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1b",
+            "CreateTime": "2022-02-16T01:31:59.591Z",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0f3e682c83184aaf4",
+            "State": "in-use",
+            "VolumeId": "vol-09f7a0b4beaf6aad5",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2020-02-28T08:07:39.947Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0a0ab87a4aff75c66",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "influxdb-test"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2020-11-23T07:45:07.877Z",
+            "Encrypted": false,
+            "Size": 4,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-03a59e9bf0e4b9947",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "kubernetes.io/cluster/dot-test-default-cluster",
+                    "Value": "owned"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "kubernetes-dynamic-pvc-29798c85-f66e-4115-9e04-357a96b80801"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/name",
+                    "Value": "aqua-web-pvc"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pv/name",
+                    "Value": "pvc-29798c85-f66e-4115-9e04-357a96b80801"
+                },
+                {
+                    "Key": "kubernetes.io/created-for/pvc/namespace",
+                    "Value": "aqua"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2020-12-06T09:49:47.563Z",
+            "Encrypted": false,
+            "Size": 500,
+            "SnapshotId": "snap-0cf50c2c8d5d1a708",
+            "State": "available",
+            "VolumeId": "vol-0f7bdf7be53f70db4",
+            "Iops": 1500,
+            "Tags": [
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-f9d31bac"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "devops-name",
+                    "Value": "artifactory central before upgrade"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-01-07T12:34:03.142Z",
+            "Encrypted": false,
+            "Size": 500,
+            "SnapshotId": "snap-0bc3527267d56f19d",
+            "State": "available",
+            "VolumeId": "vol-0eed3ead959a23330",
+            "Iops": 1500,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-f9d31bac"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-01-26T10:13:05.670Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0dc2746f0182696fe",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-e46a9159"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-01-26T13:43:54.283Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-03705ca594b29f78d",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-d149a0ed"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-01-27T12:56:40.151Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0a7f4f52df3b188b6",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CleanUp",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-8af97074"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-03-29T18:11:05.562Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-0aa9ac152b9510e7b",
+            "State": "available",
+            "VolumeId": "vol-0045bfa2703cd4430",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "sonarqube"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T09:41:20.430Z",
+            "Encrypted": false,
+            "Size": 500,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-09edced68079e0999",
+            "Iops": 1500,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-1f7fe85f"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T11:00:12.211Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0737e9fccac5aa6f4",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-19342913"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T12:23:56.930Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0e8002e5a804b3a07",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-4fc6e072"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T14:00:30.925Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-07ff433d4209485c1",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-1059aa42"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T14:59:26.430Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-048af8681d923d50e",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-0e05a81e"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T15:24:41.093Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-06da7a8a20801be88",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-fac5e8ea"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T16:16:03.976Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-066ae7436c7619e35",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-7e8aa75a"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-22T16:28:08.531Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-08fd27060641af0c0",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-9c1746c1"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-23T07:17:36.732Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0f4cde38295c0ef50",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-c594963b"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-25T11:52:00.117Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0f4c7b39fa5eab842",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-e721f951"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-25T13:20:10.995Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-01b11fdb362aebe1c",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-ba62ce4f"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-25T15:00:41.899Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-023b1df95a6aca659",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-9f5c2789"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-12-06T12:25:58.000Z",
+                    "Device": "/dev/xvdb",
+                    "InstanceId": "i-0a25977e2678258d4",
+                    "State": "attached",
+                    "VolumeId": "vol-059a7651f11a28405",
+                    "DeleteOnTermination": false
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-25T19:33:06.571Z",
+            "Encrypted": false,
+            "Size": 500,
+            "SnapshotId": "snap-016809e51cb81bef0",
+            "State": "in-use",
+            "VolumeId": "vol-059a7651f11a28405",
+            "Iops": 1500,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "artifactory"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-d7251a8f"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-26T10:34:23.219Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0078f9660c9d6baae",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-e2046ff4"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-26T14:22:54.187Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0b1d1d3ee0aa19c98",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-06788403"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-26T14:53:14.546Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0561797342f322c4a",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-845309f9"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-26T15:11:15.236Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0fd499d1bd4efc11f",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-ba1df368"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-26T15:43:03.567Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-06c3ec6c86d4bce63",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-76889931"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-27T07:54:24.898Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-03e4a6bb515f1d4e9",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-e299ad25"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-27T10:28:25.263Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-04726c8fd84f7d6e4",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-d50e4758"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-27T13:48:05.263Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-09123c195aa05fb3b",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-80fe0510"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-29T09:59:01.233Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0102abdfe3bdabdbb",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-b20677cf"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-04-29T10:28:55.653Z",
+            "Encrypted": false,
+            "Size": 100,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-01a7403de8e8c0efe",
+            "Iops": 300,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-931005bb"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "xray"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-13T08:53:21.245Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0b9030ab8ef749cc6",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-aa8f7ec8"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-13T13:40:47.058Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-056f6cfc1a70464a1",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-275d98b2"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-13T15:53:04.330Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0c96b6a4221f73cc3",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-21c9887d"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-14T09:36:11.883Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0ee90320dd4362cc8",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-9c4fe14e"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-14T10:44:06.969Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-04d93e62d2872fbc5",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-85e762bb"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-14T12:12:25.591Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-080b1f5869b1f6998",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-45391c07"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-14T12:28:51.701Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-068c318252701388f",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-6096ac7d"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-14T12:42:23.318Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0eb23db409533ebb8",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-e9d35b9d"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-14T13:27:43.967Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0c79133fd98bf0303",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-22f6c6ce"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T09:39:27.432Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0871dfb5b9da35266",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-ed4690d6"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T09:45:51.156Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0877a323fa82d0fd2",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-74569c6c"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T10:24:00.392Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0dcfaae1f6981c637",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-64a3cb99"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T11:20:35.442Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0db1bad70925e0671",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-14da15b5"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T11:32:01.273Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-09e092ce039841444",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-d0160a39"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T11:58:31.870Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-032afd81398c3c65e",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-c255ad61"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T12:58:05.604Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-073f6b3c08cb5e45f",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-86c5f264"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T13:26:49.816Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0093dea579ddda661",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-6e1884b0"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T14:23:24.281Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-027cf910f75a284af",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-be44066e"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T14:48:15.270Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-09d9ae596be3eca0a",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-0e247c74"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T14:58:20.699Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0a01bfc67fbfab9a8",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-22f387f4"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-17T15:09:09.030Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-023f5d5c1e0f83c60",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-c75b7930"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-18T08:21:31.287Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-027698411795c3cb1",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-5a7755de"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-20T19:32:51.168Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-00374c5efb2929d77",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-0663be92"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-20T19:49:07.289Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0b608df4c98549766",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-8bb5e852"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T07:39:00.892Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0b75ec758fcde7e27",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-355cee1b"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T07:57:55.306Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0c9f0e89bc0c11acd",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-38a68722"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T08:18:38.772Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0c612d20efd8c4130",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-656c5d9e"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T08:51:02.284Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-027d1d419336571e9",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-30474723"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T09:27:41.961Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0c66e25e29d029624",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-c3aca884"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T09:50:32.201Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-0842f6c34953f7206",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-0b72911e"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T14:32:20.178Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-04f526bad34820329",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-7d290dbc"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-21T14:49:28.305Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-093e4ecc62c3403b0",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-74b053d6"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-25T07:49:06.269Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-004034310439a076b",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-60ebd96c"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-25T08:21:20.249Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-02b2bb67eb9634600",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-6222417d"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-05-26T08:21:52.972Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-01c57f958ff46052f",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "prometheus"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-c2d84536"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-08-16T14:34:25.169Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "",
+            "State": "available",
+            "VolumeId": "vol-07a671a8841ea9862",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-d60e5606"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2021-12-06T12:25:00.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-0a25977e2678258d4",
+                    "State": "attached",
+                    "VolumeId": "vol-05bbef24d8c916a3c",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-12-06T12:25:00.946Z",
+            "Encrypted": false,
+            "Size": 30,
+            "SnapshotId": "snap-0a3aabd2b4f7a6cbe",
+            "State": "in-use",
+            "VolumeId": "vol-05bbef24d8c916a3c",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "artifactory"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2021-12-16T09:49:59.582Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-0ca94dd730064d225",
+            "State": "available",
+            "VolumeId": "vol-0679150970d9628a0",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:managedBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "node-exporter"
+                },
+                {
+                    "Key": "spotinst:accountId",
+                    "Value": "act-bf1b8e33"
+                },
+                {
+                    "Key": "Snapshot",
+                    "Value": "true"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:id",
+                    "Value": "sig-cfe90f70"
+                },
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        },
+        {
+            "Attachments": [
+                {
+                    "AttachTime": "2022-02-07T01:52:56.000Z",
+                    "Device": "/dev/xvda",
+                    "InstanceId": "i-071c96501e8d887a5",
+                    "State": "attached",
+                    "VolumeId": "vol-049a5fff89d21e54d",
+                    "DeleteOnTermination": true
+                }
+            ],
+            "AvailabilityZone": "eu-west-1a",
+            "CreateTime": "2022-02-07T01:52:56.654Z",
+            "Encrypted": false,
+            "Size": 8,
+            "SnapshotId": "snap-020ee8a5f94cb76b0",
+            "State": "in-use",
+            "VolumeId": "vol-049a5fff89d21e54d",
+            "Iops": 100,
+            "Tags": [
+                {
+                    "Key": "CreatedBy",
+                    "Value": "terraform"
+                },
+                {
+                    "Key": "MaintainedBY",
+                    "Value": "DevOps"
+                },
+                {
+                    "Key": "Name",
+                    "Value": "dot-test-spot-master"
+                },
+                {
+                    "Key": "Environment",
+                    "Value": "test"
+                },
+                {
+                    "Key": "spotinst:aws:ec2:group:createdBy",
+                    "Value": "spotinst"
+                }
+            ],
+            "VolumeType": "gp2",
+            "MultiAttachEnabled": false
+        }
+    ]
+}
